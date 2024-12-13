@@ -1,0 +1,5 @@
+#ignore Directory
+bin/
+obj/
+.dll
+logs/
