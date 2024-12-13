@@ -4,6 +4,9 @@ using System.Text.Json;
 
 public class ErrorHandlingMiddleware : IMiddleware
 {
+
+
+    
     private readonly ILogger<ErrorHandlingMiddleware> _logger;
 
     public ErrorHandlingMiddleware(ILogger<ErrorHandlingMiddleware> logger)
